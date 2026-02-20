@@ -1,11 +1,11 @@
 ---
 name: dictation
-description: "Take dictated speech-to-text ramblings and organize them into structured, indexed notes. Use when the user says 'take dictation', 'scribe', or pastes raw speech-to-text content."
+description: "Organize raw ideas — spoken or typed — into structured, indexed notes. Use when the user says 'take dictation', 'scribe', or pastes unstructured text."
 ---
 
-# Scribe: Dictation - Speech-to-Text Note Organizer
+# Scribe: Dictation - Idea Organizer
 
-Real-time speech-to-text capture. Parse rambling dictation, identify distinct topics, merge into existing notes or create new ones, and maintain a searchable index.
+Parse unstructured input (speech-to-text, typed ramblings, braindumps), identify distinct topics, merge into existing notes or create new ones, and maintain a searchable index. Input may be messy, fragmented, or imperfect — that's expected.
 
 ## Output Directory
 

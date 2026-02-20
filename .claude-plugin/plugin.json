@@ -1,6 +1,6 @@
 {
   "name": "scribe",
-  "description": "Knowledge capture plugin. Skills: scribe:dictation (speech-to-text), scribe:ingest (bulk import docs), scribe:discover (scan repo for docs).",
+  "description": "Knowledge capture plugin. Skills: scribe:dictation (organize raw ideas), scribe:ingest (bulk import docs), scribe:discover (scan repo for docs).",
   "version": "0.1.0",
   "author": {
     "name": "SolofAI"

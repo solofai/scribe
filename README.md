@@ -1,12 +1,12 @@
 # Scribe
 
-A [Claude Code](https://claude.ai/code) plugin for knowledge capture. Turns speech-to-text dictation, existing documents, and scattered repo files into structured, indexed, cross-referenced notes.
+A [Claude Code](https://claude.ai/code) plugin for knowledge capture. Turns unstructured input — spoken or typed — along with existing documents and scattered repo files into structured, indexed, cross-referenced notes.
 
 ## Skills
 
 | Skill | Command | What it does |
 |-------|---------|-------------|
-| **Dictation** | `/scribe:dictation` | Parse raw speech-to-text, identify topics, merge into existing notes or create new ones |
+| **Dictation** | `/scribe:dictation` | Organize raw ideas (spoken or typed) into structured, indexed notes |
 | **Ingest** | `/scribe:ingest [path]` | Bulk import `.md`, `.docx`, `.txt`, `.pdf` files into structured notes |
 | **Discover** | `/scribe:discover` | Scan a repo for documents, present a summary, hand off to ingest |
 
