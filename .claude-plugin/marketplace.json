@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "scribe",
-      "source": "../",
+      "source": "./",
       "description": "Knowledge capture plugin. Turns unstructured input into structured, indexed, cross-referenced notes.",
       "version": "0.1.0",
       "license": "MIT"
