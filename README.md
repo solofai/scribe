@@ -45,6 +45,14 @@ When new content arrives, scribe checks the existing index and decides:
 
 Scribe learns your communication patterns over time. The runtime profile lives at `~/.scribe/user-profile.md` (private, never committed to project repos). The `references/user-profile.md` files in this repo are public examples showing the profile format.
 
+### Session tracking
+
+Scribe tracks sessions to enable evidence-based profile learning. Each skill invocation writes a session record to `~/.scribe/sessions/` (one file per session, write-once, never modified). Session files use the naming format `{YYYYMMDDTHHMMSS}-{skill}-{5-random}.md`.
+
+Evidence counting works by grepping across session files for canonical pattern slugs. A candidate pattern is promoted to the main profile sections after appearing in 2+ sessions (or immediately if the user states it explicitly). A reconciliation pass at session start catches any promotions lost to concurrent writes or interrupted sessions.
+
+See `skills/shared/references/session-tracking.md` for the full protocol.
+
 ## Note schema
 
 Every note uses this structure:

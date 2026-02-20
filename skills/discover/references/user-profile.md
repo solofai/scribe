@@ -3,6 +3,7 @@
 **Profile Owner:** Lori (public example baseline)
 **Last Updated:** 2026-02-19 (2)
 **Sessions Analyzed:** 20+
+**Profile Format:** v2
 
 ## Idea Structure
 - Thinks in interconnected webs - almost every idea touches 2-3 existing concepts
@@ -37,7 +38,10 @@
 - Alternates between meta-reflection (observing own thinking patterns) and concrete ideas - both are valuable; meta-observations often lead to tool/skill improvements
 
 ## Candidate Patterns (Need More Evidence)
-- _None currently._
+
+| Slug | Pattern | Sessions | First Seen | Last Seen | Source |
+|------|---------|----------|------------|-----------|--------|
+| _(none currently)_ | | | | | |
 
 ## Profile Evolution Log
 - 2026-02-19: Public example profile curated from observed sessions.
@@ -45,4 +49,5 @@
 ## Runtime Adaptation Notes
 - This file is a public seed example.
 - Runtime personalization should be written to `~/.scribe/user-profile.md`.
+- Session records are stored in `~/.scribe/sessions/` (one file per session, write-once).
 - Keep this file stable unless intentionally improving the public example.
