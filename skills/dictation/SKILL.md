@@ -21,7 +21,7 @@ project-root/
 \- ...
 ```
 
-**Exception:** If invoked outside a project (no git repo), or if the user explicitly asks, notes go to `~/.claude/notes/`.
+**No exceptions.** Always use `claude-notes/` in the current working directory, even outside a git repo. Never use `~/.claude/notes/`.
 
 **First run:** If `claude-notes/` or `claude-notes/INDEX.md` does not exist, create them.
 

@@ -9,7 +9,7 @@ Scan a repository for documents the user might want to organize. Present a summa
 
 ## Output Directory
 
-Notes go into `claude-notes/` in the current project directory. See the dictation skill for directory structure details and the fallback rule (no git repo → `~/.claude/notes/`).
+Notes go into `claude-notes/` in the current working directory. Always. Never use `~/.claude/notes/`.
 
 ## Workflow
 
