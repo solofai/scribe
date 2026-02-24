@@ -7,6 +7,10 @@ description: "Scan a repo for documents to organize. Find .md, .docx, .txt, .pdf
 
 Scan a repository for documents the user might want to organize. Present a summary and let the user choose what to ingest.
 
+## Output Directory
+
+Notes go into `claude-notes/` in the current project directory. See the dictation skill for directory structure details and the fallback rule (no git repo → `~/.claude/notes/`).
+
 ## Workflow
 
 ### 0. Load or Initialize the Working User Profile
